@@ -1,0 +1,21 @@
+.result-item {
+  padding-left: 40px;
+}
+
+.result-item:before {
+  position: absolute;
+  content: "-";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 18px;
+  left: 18px;
+}
+
+.result-item.is-correct:before {
+  position: absolute;
+  content: "+";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 18px;
+  left: 16px;
+}
